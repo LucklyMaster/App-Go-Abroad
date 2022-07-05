@@ -32,3 +32,5 @@
     ```
 + 已知问题
 + [测试](https://dev.appsflyer.com/hc/docs/testing-android)
+    + 添加测试白名单 (在Google Play下载`My Device ID by AppsFlyer`，并登录管理员账号注册或者在AppsFlyer测试功能下添加)
+        
