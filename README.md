@@ -32,5 +32,7 @@
     ```
 + 已知问题
 + [测试](https://dev.appsflyer.com/hc/docs/testing-android)
-    + 添加测试白名单 (在Google Play下载`My Device ID by AppsFlyer`，并登录管理员账号注册或者在AppsFlyer测试功能下添加)
+    + 添加测试白名单(在Google Play下载`My Device ID by AppsFlyer`，并登录管理员账号注册或者在AppsFlyer测试功能下添加)
+![test](img/test_1.png)
+    + 测试非自然新增(白名单设备卸载APP后，扫描测试二维码，在网页点击Ready，白名单设备安装APP并打开，接下来就可以在控制面板中看到新增的非自然安装数量)
         
