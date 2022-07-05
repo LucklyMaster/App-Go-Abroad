@@ -18,16 +18,17 @@
 + 启动SDK
     ```
     AppsFlyerLib.getInstance()
-            .init(Constants.APPSFLYER_DEV_KEY, null, this)
-            .apply { setDebugLog(BuildConfig.DEBUG) }
-            .start(instance, Constants.APPSFLYER_DEV_KEY, object : AppsFlyerRequestListener {
-                override fun onSuccess() {
-                    LogUtils.d("AppsFlyerLib启动成功")
-                }
+        .init(Constants.APPSFLYER_DEV_KEY, null, this)
+        .apply { setDebugLog(BuildConfig.DEBUG) }
+        .start(instance, Constants.APPSFLYER_DEV_KEY, object : AppsFlyerRequestListener {
+            override fun onSuccess() {
+                LogUtils.d("AppsFlyerLib启动成功")
+            }
 
-                override fun onError(code: Int, msg: String) {
-                    LogUtils.d("AppsFlyerLib启动失败（code = $code,msg = $msg）")
-                }
-            })
+            override fun onError(code: Int, msg: String) {
+                LogUtils.d("AppsFlyerLib启动失败（code = $code,msg = $msg）")
+            }
+        })
     ```
 + 已知问题
++ [测试](https://dev.appsflyer.com/hc/docs/testing-android)
